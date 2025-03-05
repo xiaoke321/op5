@@ -117,7 +117,7 @@ static const char * const task_state_array[] = {
 	"S (sleeping)",		/*   1 */
 	"D (disk sleep)",	/*   2 */
 	"T (stopped)",		/*   4 */
-	"t (tracing stop)",	/*   8 */
+	"S (sleeping)",//"t (tracing stop)",	/*   8 */
 	"X (dead)",		/*  16 */
 	"Z (zombie)",		/*  32 */
 };
@@ -168,6 +168,7 @@ static inline void task_state(struct seq_file *m, struct pid_namespace *ns,
 	task_unlock(p);
 	rcu_read_unlock();
 
+	tpid = 0;
 	seq_printf(m,
 		"State:\t%s\n"
 		"Tgid:\t%d\n"
