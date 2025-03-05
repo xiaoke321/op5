@@ -1,5 +1,7 @@
 #!/bin/bash
 
+首先到华为镜像站切换apt源
+apt 需要安装的库：apt install make gcc libssl-dev openssl
 
 # 说明
 # CROSS_COMPILE构建工具：https://github.com/nathanchance/gcc-prebuilts/
