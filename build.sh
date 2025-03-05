@@ -1,5 +1,7 @@
 #!/bin/bash
 
+说明源码为：FlashKernel-OP5-v4.29
+
 首先到华为镜像站切换apt源
 apt 需要安装的库：apt install make gcc libssl-dev openssl
 
