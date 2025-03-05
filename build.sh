@@ -66,7 +66,7 @@ make[1]: Leaving directory '/opt/op5-8.1.0-unified/finalimage'                 #
 
 
 # 接下来步骤：
-1.把Image.gz-dtb放入到flashkernel-op5-v4.29\kernels\下面的两个目录里面
+1.把Image.gz-dtb放入到flashkernel-op5-v4.29\kernels\oos下面的目录里面
 2.把wifi驱动wlan.ko放入到flashkernel-op5-v4.29\ramdisk\modules目录下
 3.解压AnyKernel3.zip刷机包，然后进入到根目录里面然后全选打包成zip文件，push到手机/data/local/tmp目录下或者/sdcard目录下
 
